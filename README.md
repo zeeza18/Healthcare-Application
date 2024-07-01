@@ -85,9 +85,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 - **Malaria:** [Cell Images for Detecting Malaria](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria)
 - **Pneumonia:** [Chest X-Ray Pneumonia](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
-## Acknowledgements
-
-We would like to acknowledge Krish Naik for his invaluable guidance and contributions to this project.
 
 ## Application Images
 
@@ -98,6 +95,11 @@ We would like to acknowledge Krish Naik for his invaluable guidance and contribu
 ## Diseases Panel
 
 ![checker](uploads/image3.png)
+
+## Acknowledgements
+
+We would like to acknowledge Krish Naik for his invaluable guidance and contributions to this project.
+
 
 ## License
 
