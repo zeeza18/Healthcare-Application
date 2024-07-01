@@ -34,7 +34,6 @@ Follow these instructions to get a copy of the project up and running on your lo
    ```bash
    python3 -m venv venv
 
-
 3. **Activate the virtual environment:**
 
    - On Windows:
@@ -42,18 +41,15 @@ Follow these instructions to get a copy of the project up and running on your lo
      ```bash
      .\\venv\\Scripts\\activate
      
-
    - On MacOS/Linux:
 
      ```bash
      source venv/bin/activate
-     
 
 4. **Install the required libraries:**
 
    ```bash
    pip install -r requirements.txt
-
 
 ## Running the Application
 
@@ -63,14 +59,12 @@ Follow these instructions to get a copy of the project up and running on your lo
 
    ```bash
    export FLASK_APP=app.py
-   export FLASK_ENV=development
-   
+   export FLASK_ENV=development   
 
 2. **Run the Flask application:**
 
    ```bash
    flask run
-   
 
    The application will be available at \`http://127.0.0.1:5000/\`.
 
