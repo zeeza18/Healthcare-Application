@@ -91,9 +91,9 @@ We would like to acknowledge Krish Naik for his invaluable guidance and contribu
 
 ## Application Images
 
-![home](image1.png)
-![about](image2.png)
-![checker](image3.png)
+![home](uploads/image1.png)
+![about](uploads/image2.png)
+![checker](uploads/image3.png)
 
 ## License
 
