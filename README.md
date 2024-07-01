@@ -25,10 +25,9 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. **Clone the repository:**
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/zeeza18/Healthcare-Application.git
    cd Healthcare-Application
-   \`\`\`
 
 2. **Create a virtual environment:**
 
