@@ -92,7 +92,11 @@ We would like to acknowledge Krish Naik for his invaluable guidance and contribu
 ## Application Images
 
 ![home](uploads/image1.png)
+
 ![about](uploads/image2.png)
+
+## Diseases Panel
+
 ![checker](uploads/image3.png)
 
 ## License
