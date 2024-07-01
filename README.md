@@ -1,5 +1,3 @@
-# Writing the provided README content to a raw file
-readme_content = """
 # Healthcare Application
 
 This is a Healthcare Application designed to improve patient care by leveraging modern technologies. The application includes features for patient management, appointment scheduling, and more.
@@ -104,7 +102,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 All datasets used in this project are licensed under their respective licenses. Please refer to the datasets' documentation for more information.
 """
-
-# Save the content to a README.md file
-with open("/mnt/data/README.md", "w") as file:
-    file.write(readme_content)
