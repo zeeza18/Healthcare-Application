@@ -1,71 +1,96 @@
-# ML-MT-WebApp
+# Healthcare Application
 
-## On request from many of you I have created a telegram chennal where your guys can post your questions and then we can have discussions there about improving this project bit further and further help you guys can get.
-### Channel link : https://t.me/mymlmt
+This is a Healthcare Application designed to improve patient care by leveraging modern technologies. The application includes features for patient management, appointment scheduling, and more.
 
-❓ ***Let me know on telegram if you guys want this project to be deployed with Docker and Kubernetes***
+## Table of Contents
 
-<img src="https://cdn.activestate.com/wp-content/uploads/2018/10/machine-learning-healthcare-blog-hero-1200x799.jpg" width="1100" height="300" />
-<p> This is one of major project of my undergraduate degree program.</p>
-<p>Here, I have developed a disease predicting web app which using the concept of machine learning makes predictions about various diseases like Malaria, Pneumonia, Diabetes etc.</p>
+1. [Getting Started](#getting-started)
+2. [Prerequisites](#prerequisites)
+3. [Installation](#installation)
+4. [Running the Application](#running-the-application)
+5. [Datasets](#datasets)
+6. [Acknowledgements](#acknowledgements)
+7. [License](#license)
 
-<hr>
-<h3> Down below are the names of the various model files used:</h3>
-<ul>
-<li><p><b>Cancer model = model</b></p></li>
-<li><p><b>Diabetes model = model1</b></p></li>
-<li><p><b>Heart model = model2</b></p></li>
-<li><p><b>Liver model = model4</b></p></li>
-<li><p><b>Kidney model = model3</b></p></li>
+## Getting Started
 
-<li><p><b>Malaria model = model111.h5</b></p></li>
-<li><p><b>Pneumonia model = my_model.h5</b></p></li>
-</ul>
-<hr>
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-<h3> Kernals used for training deep learning model </h3>
-<ul>
-<li><p><b>Kernal for Malaria model :</b>https://www.kaggle.com/shobhit18th/malaria-cell</p></li>
+## Prerequisites
 
-<li><p><b>Kernal for Pneumonia model :</b>https://www.kaggle.com/shobhit18th/keras-nn-x-ray-predict-pneumonia-86-54</p></li>
-<hr>
-</ul>
+- Python 3.7 or higher
+- Git
 
-<h3> Details of various datasets used for model development : </h3>
-<ul>
-<li><p><b>Cancer</b> : cancer.csv [In the repository]</p></li>
-<li><p><b>Diabetes</b> : diabetes.csv [In the repository]</p></li>
-<li><p><b>Heart</b> : heart.csv [In the repository]</p></li>
-<li><p><b>Liver</b> : https://www.kaggle.com/uciml/indian-liver-patient-records </p></li>
-<li><p><b>Kidney</b> : https://www.kaggle.com/mansoordaku/ckdisease </p></li>
+## Installation
 
-<li><p><b>Malaria : </b> https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria </p></li>
-<li><p><b>Pneumonia: </b> https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia </p></li>
-</ul>
+1. **Clone the repository:**
 
-<hr>
+   ```bash
+   git clone https://github.com/zeeza18/Healthcare-Application.git
+   cd Healthcare-Application
 
-<h3> Tools used for project development: </h3>
-<ul>
-<li><p><b>Python ( 3.7 version)</b></p></li>
-<li><p><b>Flask</b></p></li>
-<li><p><b>OpenCV</b></p></li>
-<li><p><b>Pandas</b></p></li>
-<li><p><b>Numpy</b></p></li>
-<li><p><b>HTML</b></p></li>
-<li><p><b>CSS</b></p></li>
-</ul>
+2. **Create a virtual environment:**
 
-<hr>
- <h3> For using the project clone the repository and type the following commands in the termial: </h3>
- <ul>
-  <li> $ set FLASK_APP= app.py</li>
-  <li> $ flask run</li>
-  </ul>
-  
-  <hr>
-  
-  <p> The whole project is deployed on Heroku Cloud.
-  
- <p> Here is the link where you can access the project live : https://myml-mtapp.herokuapp.com/ <p>
-  <p> Thank you!</p>
+   ```bash
+   python3 -m venv venv
+
+3. **Activate the virtual environment:**
+
+   - On Windows:
+
+     ```bash
+     .\\venv\\Scripts\\activate
+     
+   - On MacOS/Linux:
+
+     ```bash
+     source venv/bin/activate
+
+4. **Install the required libraries:**
+
+   ```bash
+   pip install -r requirements.txt
+
+## Running the Application
+
+1. **Set environment variables (if any):**
+
+   Make sure to set any required environment variables. For example:
+
+   ```bash
+   export FLASK_APP=app.py
+   export FLASK_ENV=development   
+
+2. **Run the Flask application:**
+
+   ```bash
+   flask run
+
+   The application will be available at \`http://127.0.0.1:5000/\`.
+
+## Datasets
+
+### Kernels used for training deep learning models:
+
+- **Kernel for Malaria model:** [Malaria Cell](https://www.kaggle.com/shobhit18th/malaria-cell)
+- **Kernel for Pneumonia model:** [Keras NN X-Ray Predict Pneumonia](https://www.kaggle.com/shobhit18th/keras-nn-x-ray-predict-pneumonia-86-54)
+
+### Details of various datasets used for model development:
+
+- **Cancer:** cancer.csv (In the repository)
+- **Diabetes:** diabetes.csv (In the repository)
+- **Heart:** heart.csv (In the repository)
+- **Liver:** [Indian Liver Patient Records](https://www.kaggle.com/uciml/indian-liver-patient-records)
+- **Kidney:** [Chronic Kidney Disease](https://www.kaggle.com/mansoordaku/ckdisease)
+- **Malaria:** [Cell Images for Detecting Malaria](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria)
+- **Pneumonia:** [Chest X-Ray Pneumonia](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+
+## Acknowledgements
+
+We would like to acknowledge Krish Naik for his invaluable guidance and contributions to this project.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+All datasets used in this project are licensed under their respective licenses. Please refer to the datasets' documentation for more information.
